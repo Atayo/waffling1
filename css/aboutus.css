@@ -1,0 +1,146 @@
+html,body{
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  text-align:center;
+  min-width:260px;
+  color:#333333;
+}
+@media only screen and (max-width:620px) {
+header{
+size:50%;
+padding: 0;
+}
+
+  .container{
+    columns:2 auto;
+    font-size:40%;
+  }
+  li{
+    font-size: 50%;
+  }
+footer{
+  height:0px;
+  padding-bottom: 0px;
+  position: relative;
+  line-height: 5px;
+}
+
+}
+
+header{
+  background-image: url("https://i.imgur.com/F6yMHuz.jpg");
+  background-repeat:no-repeat;
+  background-color:#02020A;
+  background-size:cover;
+  background-position:center ;
+  max-width:100%;
+  height:auto;
+  width:100%;
+  padding: 1rem;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+nav ol li{
+  list-style-type: none;
+  padding: 750px 60px 0px 70px;
+  font-size:18px;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+nav a{
+  text-decoration: none;
+  color:#F9564F;
+  font-weight: bolder;
+}
+
+nav a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+h1{
+  font-size: 60px;
+
+}
+
+.content{
+  margin-bottom: -70px;
+  margin: 0px 400px 0px 400px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+/* column layout */
+.col-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 10vh;
+  margin-top:70px;
+}
+
+.column1   { background-color:#f2e8dd;
+}
+
+.column2  { background-color:#E6EAED;
+}
+
+.column3   { background-color: #EFEFEF;
+}
+/* end of columns */
+
+footer {
+  background-color:#02020A ;
+  color:white;
+  font-size:25px ;
+  line-height: 30px;
+  max-width:100% ;
+  padding: 25px 0px 25px 0px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  width:100%;
+  height:250px;
+  display:block;
+}
+
+footer a {
+   color: rgba(241,237,234,0.6);
+  text-decoration:none;
+}
+footer a:hover {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration:underline;
+}
+
+#unorderedlist{
+  list-style: none;
+  font-size:20px ;
+  line-height: 55px;
+}
+.container{
+  columns:3 10em;
+}
+#copyright{
+  margin-top:100px ;
+
+}
+#social-buttons button a:hover{
+color:white ;
+text-decoration:none;
+}
+.btn-twitter {
+  background-color: #00acee;
+  border-color: #009ad5;
+  color: white;
+}
+
+.btn-facebook {
+  background-color: #4868ac;
+  border-color: #314776;
+  color: white;
+}
+
+.btn-instagram {
+  background-color: #b62f26;
+  border-color: #b62f26;
+  color: white;
+}
